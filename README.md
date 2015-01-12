@@ -10,7 +10,7 @@ Use [Composer][3] to install Debug Helper.
 ```
 {
     "require": {
-        "jeremykendall/debug-helper": "*"
+        "jeremykendall/debug-die": "*"
     }
 }
 ```

@@ -4,8 +4,8 @@
  * Debug Helper: Convenience wrapper around var_dump() and die(var_dump()).
  *
  * @copyright 2015 Jeremy Kendall
- * @license https://github.com/jeremykendall/debug-helper/blob/master/LICENSE MIT
- * @link https://github.com/jeremykendall/debug-helper
+ * @license https://github.com/jeremykendall/debug-die/blob/master/LICENSE MIT
+ * @link https://github.com/jeremykendall/debug-die
  */
 
 namespace {
@@ -41,7 +41,7 @@ namespace {
         }
     } else {
         trigger_error(
-            'd() or dd() already exist as functions. debug-helper cannot be used.',
+            'd() or dd() already exist as functions. debug-die cannot be used.',
             E_USER_ERROR
         );
     }
